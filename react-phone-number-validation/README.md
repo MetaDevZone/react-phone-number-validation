@@ -1,15 +1,15 @@
-# react-country-phone-input
+# react-phone-number-validation
 
-`react-country-phone-input` is a React component library that provides a customizable phone input field with a dropdown menu for selecting countries. This component simplifies the process of collecting phone numbers from users while allowing them to easily choose their country code.
+`react-phone-number-validation` is a React component library that provides a customizable phone input field with a dropdown menu for selecting countries. This component simplifies the process of collecting phone numbers from users while allowing them to easily choose their country code.
 
 ## Installation
 
-You can install `react-country-phone-input` via npm or yarn:
+You can install `react-phone-number-validation` via npm or yarn:
 
 ```bash
-npm install react-country-phone-input
+npm install react-phone-number-validation
 # or
-yarn add react-country-phone-input
+yarn add react-phone-number-validation
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Once installed, you can use the `PhoneInput` component in your React application
 
 ```jsx
 import React, { useState } from "react";
-import PhoneInput from "react-country-phone-input";
+import PhoneInput from "react-phone-number-validation";
 
 const App = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
