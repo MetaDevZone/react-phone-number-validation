@@ -4,17 +4,16 @@
 
 .phone-input-image {
   position: absolute;
-  height: 38px;
   padding: 0px 10px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .phone-input-image img {
   height: 15px;
   width: 20px;
-  padding-right: 5px;
+  margin-right: 5px;
 }
 
 .phone-input-image span {
@@ -22,16 +21,18 @@
 }
 
 .phone-input-container #myInput {
-  padding: 10px 10px 10px 52px;
+  padding-left: 50px;
 }
 
 .select-div {
-  height: 300px;
+  position: absolute;
+  height: 200px;
   width: 300px;
   max-width: 100%;
   background: white;
   overflow-y: auto;
   margin-top: 10px;
+  z-index: 1;
 }
 
 .country-div {
@@ -39,23 +40,33 @@
   align-items: center;
   padding: 5px;
   border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+  font-size: 14px;
+  color: #000;
 }
 
 .country-div img {
-  padding-right: 10px;
+  margin-right: 10px;
   height: 15px;
   width: 20px;
 }
 
 .select-div .search-input {
-  padding: 5px;
-  width: 260px;
   position: absolute;
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  width: 95%;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  top: 6px;
 }
 
-.country-div {
-  cursor: pointer;
-  font-size: 14px;
+.select-div input:focus {
+  background-color: #fff;
+  color: #000;
+  border-radius: 0px;
 }
 
 .country-div:hover {
@@ -63,13 +74,11 @@
 }
 
 .country-div-open {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .placeholder-text {
   position: absolute;
   left: 80px;
-  top: 12px;
-  color: lightgray;
-  font-size: 14px;
+  opacity: 0.5;
 }

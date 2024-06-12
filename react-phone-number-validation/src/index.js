@@ -190,7 +190,7 @@ const PhoneInput = ({
       <div
         className="placeholder-text"
         style={{
-          left: value.length * 7 + 55,
+          left: value.length * 9 + 60,
         }}
         onClick={handleFoucs}
       >
