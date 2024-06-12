@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { countryList } from "./components/CountryListData";
 import { isValidNumber } from "libphonenumber-js";
-import "./App.css";
+import "./index.css";
 
 const PhoneInput = ({
   onChange,
@@ -204,7 +204,7 @@ const PhoneInput = ({
       <input
         {...other_value}
         id="myInput"
-        className={`phone-input ${inputClass}`}
+        className={`custom_phone_input ${inputClass}`}
         value={value}
         onChange={handleInputChange}
         onBlur={

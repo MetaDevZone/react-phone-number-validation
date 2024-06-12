@@ -21,7 +21,7 @@
   font-size: 10px;
 }
 
-.phone-input-container .phone-input {
+.phone-input-container #myInput {
   padding: 10px 10px 10px 52px;
 }
 
@@ -69,7 +69,7 @@
 .placeholder-text {
   position: absolute;
   left: 80px;
-  top: 9px;
+  top: 12px;
   color: lightgray;
   font-size: 14px;
 }

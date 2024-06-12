@@ -1,6 +1,5 @@
 import { useState } from "react";
 import PhoneInput from "react-phone-number-validation";
-import "./App.css";
 
 const App = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
