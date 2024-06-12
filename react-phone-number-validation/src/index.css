@@ -81,4 +81,6 @@
   position: absolute;
   left: 80px;
   opacity: 0.5;
+  top: 50%;
+  transform: translateY(-50%);
 }
