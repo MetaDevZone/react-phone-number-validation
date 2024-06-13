@@ -45,8 +45,8 @@ export default App;
 ## Props
 
 - **country:** set default country like 'gb' for United Kingdom. default: 'af'.
-- **inputClass:** custom class for input element (optional) default: 'phone-input-input'.
-- **dropdownClass:** custom class for dropdown element (optional) default: 'phone-input-dropdown'.
+- **inputClass:** custom class for input element (optional).
+- **dropdownClass:** custom class for dropdown element (optional).
 - **autoSelectCountry:** auto select country based on user location (optional) default: false.
 - **enableSearch:** enable country search (optional) default: false.
 - **disableDropdown:** disable dropdown (optional) default: false
