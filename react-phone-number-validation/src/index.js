@@ -153,7 +153,9 @@ const PhoneInput = ({
   const initializeCountry = () => {
     const selectedCountry = autoSelectCountry
       ? countryTimeZone
-      : countryList.find((value) => value.iso2 === country);
+      : countryList.find(
+          (value) => value.iso2.toLowerCase() === country.toLowerCase()
+        );
 
     setSelectedCountry(selectedCountry);
     setInputPlaceholder(other_value?.placeholder || selectedCountry.format);
