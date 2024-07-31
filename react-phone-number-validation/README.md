@@ -1,6 +1,6 @@
-# react-phone-number-validation
+# React Phone Number Validation
 
-`react-phone-number-validation` is a React component library that provides a customizable phone input field with a dropdown menu for selecting countries. This component simplifies the process of collecting phone numbers from users while allowing them to easily choose their country code.
+`React Phone Number Validation` is a React component library that provides a customizable phone input field with a dropdown menu for selecting countries. This component simplifies the process of collecting phone numbers from users while allowing them to easily choose their country code.
 
 ## Installation
 
@@ -44,21 +44,25 @@ export default App;
 
 ## Props
 
-- **country:** set default country like 'gb' for United Kingdom. default: 'af'.
-- **inputClass:** custom class for input element (optional).
-- **dropdownClass:** custom class for dropdown element (optional).
-- **autoSelectCountry:** auto select country based on user location (optional) default: false.
-- **enableSearch:** enable country search (optional) default: false.
-- **disableDropdown:** disable dropdown (optional) default: false
-- **countryCodeEditable:** allow user to edit country code (optional) default: true
-- **hideAsterisk:** hide asterisk for required fields (optional) default: false
-- **value:** input value (required)
-- **setValue:** callback function to update input value (required)
-- **onChange:** callback function to handle input change (required)
-- **dropdownStyle:** custom style for dropdown (optional)
-- **searchPlaceholder:** search placeholder (optional) default: 'Search'
-- **name:** input name (optional) default: ''
-- **required:** required field (optional) default: false
-- **searchNotFound:** search not found message (optional) default: 'No Country Found'
-- **isValidMessage:** validation message (optional) default: 'Invalid Phone Number'
-- **onRender={(value, country) => console.log(value, country)}:** callback function to handle render (optional)
+| Prop                  | Type       | Description                                            | Default                                           |
+| --------------------- | ---------- | ------------------------------------------------------ | ------------------------------------------------- |
+| `country`             | `String`   | Set default country (e.g., 'gb' for United Kingdom).   | `'af'`                                            |
+| `inputClass`          | `String`   | Custom class for the input element (optional).         |                                                   |
+| `dropdownClass`       | `String`   | Custom class for the dropdown element (optional).      |                                                   |
+| `autoSelectCountry`   | `Boolean`  | Auto-select country based on user location (optional). | `false`                                           |
+| `enableSearch`        | `Boolean`  | Enable country search (optional).                      | `false`                                           |
+| `disableDropdown`     | `Boolean`  | Disable dropdown (optional).                           | `false`                                           |
+| `countryCodeEditable` | `Boolean`  | Allow user to edit country code (optional).            | `true`                                            |
+| `hideAsterisk`        | `Boolean`  | Hide asterisk for required fields (optional).          | `false`                                           |
+| `value`               | `String`   | Input value (required).                                |                                                   |
+| `setValue`            | `Function` | Callback function to update input value (required).    |                                                   |
+| `onChange`            | `Function` | Callback function to handle input change (required).   |                                                   |
+| `dropdownStyle`       | `Object`   | Custom style for dropdown (optional).                  |                                                   |
+| `searchPlaceholder`   | `String`   | Search placeholder (optional).                         | `'Search'`                                        |
+| `name`                | `String`   | Input name (optional).                                 | `''`                                              |
+| `required`            | `Boolean`  | Required field (optional).                             | `false`                                           |
+| `searchNotFound`      | `String`   | Search not found message (optional).                   | `'No Country Found'`                              |
+| `isValidMessage`      | `String`   | Validation message (optional).                         | `'Invalid Phone Number'`                          |
+| `onRender`            | `Function` | Callback function to handle render (optional).         | `(value, country) => console.log(value, country)` |
+
+Meta Dev Zone – [@meta-dev-zone](https://www.npmjs.com/~meta-dev-zone)
