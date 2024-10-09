@@ -2,6 +2,10 @@
 
 `React Phone Number Validation` is a React component library that provides a customizable phone input field with a dropdown menu for selecting countries. This component simplifies the process of collecting phone numbers from users while allowing them to easily choose their country code.
 
+## Live Demo
+
+To test React Phone Number Validation on CodeSandbox, click [here](https://codesandbox.io/p/devbox/react-phone-number-validation-cg23yz).
+
 ## Installation
 
 You can install `react-phone-number-validation` via npm or yarn:

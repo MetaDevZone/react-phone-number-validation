@@ -192,7 +192,7 @@ const PhoneInput = ({
       <div
         className="placeholder-text"
         style={{
-          left: value.length * 9 + 60,
+          left: value.length * 9 + 53,
         }}
         onClick={handleFoucs}
       >
