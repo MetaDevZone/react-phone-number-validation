@@ -21,13 +21,6 @@ export const countryList = [
     timeZones: ["Africa/Algiers"],
   },
   {
-    name: "American Samoa",
-    iso2: "as",
-    dialCode: "+1",
-    format: "+1 684 733 1234",
-    timeZones: ["Pacific/Pago_Pago"],
-  },
-  {
     name: "Andorra",
     iso2: "ad",
     dialCode: "+376",
@@ -40,20 +33,6 @@ export const countryList = [
     dialCode: "+244",
     format: "+244 923 123 456",
     timeZones: ["Africa/Luanda"],
-  },
-  {
-    name: "Anguilla",
-    iso2: "ai",
-    dialCode: "+1",
-    format: "+1 264 235 1234",
-    timeZones: ["America/Anguilla"],
-  },
-  {
-    name: "Antigua and Barbuda",
-    iso2: "ag",
-    dialCode: "+1",
-    format: "+1 268 464 1234",
-    timeZones: ["America/Antigua"],
   },
   {
     name: "Argentina",
@@ -112,13 +91,6 @@ export const countryList = [
     timeZones: ["Asia/Baku"],
   },
   {
-    name: "Bahamas",
-    iso2: "bs",
-    dialCode: "+1",
-    format: "+1 242 359 1234",
-    timeZones: ["America/Nassau"],
-  },
-  {
     name: "Bahrain",
     iso2: "bh",
     dialCode: "+973",
@@ -131,13 +103,6 @@ export const countryList = [
     dialCode: "+880",
     format: "+880 1812-345678",
     timeZones: ["Asia/Dhaka"],
-  },
-  {
-    name: "Barbados",
-    iso2: "bb",
-    dialCode: "+1",
-    format: "+1 246 250 1234",
-    timeZones: ["America/Barbados"],
   },
   {
     name: "Belarus",
@@ -166,13 +131,6 @@ export const countryList = [
     dialCode: "+229",
     format: "+229 90 12 3456",
     timeZones: ["Africa/Porto-Novo"],
-  },
-  {
-    name: "Bermuda",
-    iso2: "bm",
-    dialCode: "+1",
-    format: "+1 441 370 1234",
-    timeZones: ["Atlantic/Bermuda"],
   },
   {
     name: "Bhutan",
@@ -232,13 +190,6 @@ export const countryList = [
     dialCode: "+246",
     format: "+246 380 1234",
     timeZones: ["Indian/Chagos"],
-  },
-  {
-    name: "British Virgin Islands",
-    iso2: "vg",
-    dialCode: "+1",
-    format: "+1 284 300 1234",
-    timeZones: ["America/Tortola"],
   },
   {
     name: "Brunei",
@@ -331,13 +282,6 @@ export const countryList = [
     dialCode: "+599",
     format: "+599 318 1234",
     timeZones: ["America/Curacao"],
-  },
-  {
-    name: "Cayman Islands",
-    iso2: "ky",
-    dialCode: "+1",
-    format: "+1 345 323 1234",
-    timeZones: ["America/Cayman"],
   },
   {
     name: "Central African Republic",
@@ -478,20 +422,6 @@ export const countryList = [
     dialCode: "+253",
     format: "+253 77 83 10 01",
     timeZones: ["Africa/Djibouti"],
-  },
-  {
-    name: "Dominica",
-    iso2: "dm",
-    dialCode: "+1",
-    format: "+1 767 225 1234",
-    timeZones: ["America/Dominica"],
-  },
-  {
-    name: "Dominican Republic",
-    iso2: "do",
-    dialCode: "+1",
-    format: "+1 809 234 5678",
-    timeZones: ["America/Santo_Domingo"],
   },
   {
     name: "Ecuador",
@@ -655,25 +585,11 @@ export const countryList = [
     timeZones: ["America/Godthab"],
   },
   {
-    name: "Grenada",
-    iso2: "gd",
-    dialCode: "+1",
-    format: "+1 473 403 1234",
-    timeZones: ["America/Grenada"],
-  },
-  {
     name: "Guadeloupe",
     iso2: "gp",
     dialCode: "+590",
     format: "+590 690 30 12 34",
     timeZones: ["America/Guadeloupe"],
-  },
-  {
-    name: "Guam",
-    iso2: "gu",
-    dialCode: "+1",
-    format: "+1 671 300 1234",
-    timeZones: ["Pacific/Guam"],
   },
   {
     name: "Guatemala",
@@ -798,13 +714,6 @@ export const countryList = [
     dialCode: "+39",
     format: "+39 345 123 4567",
     timeZones: ["Europe/Rome"],
-  },
-  {
-    name: "Jamaica",
-    iso2: "jm",
-    dialCode: "+1",
-    format: "+1 876 210 1234",
-    timeZones: ["America/Jamaica"],
   },
   {
     name: "Japan",
@@ -1071,13 +980,6 @@ export const countryList = [
     timeZones: ["Europe/Podgorica"],
   },
   {
-    name: "Montserrat",
-    iso2: "ms",
-    dialCode: "+1",
-    format: "+1 664 492 1234",
-    timeZones: ["America/Montserrat"],
-  },
-  {
     name: "Morocco",
     iso2: "ma",
     dialCode: "+212",
@@ -1190,13 +1092,6 @@ export const countryList = [
     timeZones: ["Europe/Skopje"],
   },
   {
-    name: "Northern Mariana Islands",
-    iso2: "mp",
-    dialCode: "+1",
-    format: "+1 670 234 5678",
-    timeZones: ["Pacific/Saipan"],
-  },
-  {
     name: "Norway",
     iso2: "no",
     dialCode: "+47",
@@ -1281,13 +1176,6 @@ export const countryList = [
     timeZones: ["Europe/Lisbon", "Atlantic/Madeira", "Atlantic/Azores"],
   },
   {
-    name: "Puerto Rico",
-    iso2: "pr",
-    dialCode: "+1",
-    format: "+1 787 234 5678",
-    timeZones: ["America/Puerto_Rico"],
-  },
-  {
     name: "Qatar",
     iso2: "qa",
     dialCode: "+974",
@@ -1365,20 +1253,6 @@ export const countryList = [
     timeZones: ["Atlantic/St_Helena"],
   },
   {
-    name: "Saint Kitts and Nevis",
-    iso2: "kn",
-    dialCode: "+1",
-    format: "+1 869 765 2917",
-    timeZones: ["America/St_Kitts"],
-  },
-  {
-    name: "Saint Lucia",
-    iso2: "lc",
-    dialCode: "+1",
-    format: "+1 758 284 5678",
-    timeZones: ["America/St_Lucia"],
-  },
-  {
     name: "Saint Martin",
     iso2: "mf",
     dialCode: "+590",
@@ -1391,13 +1265,6 @@ export const countryList = [
     dialCode: "+508",
     format: "+508 551 12 34",
     timeZones: ["America/Miquelon"],
-  },
-  {
-    name: "Saint Vincent and the Grenadines",
-    iso2: "vc",
-    dialCode: "+1",
-    format: "+1 784 458 1234",
-    timeZones: ["America/St_Vincent"],
   },
   {
     name: "Samoa",
@@ -1461,13 +1328,6 @@ export const countryList = [
     dialCode: "+65",
     format: "+65 8123 4567",
     timeZones: ["Asia/Singapore"],
-  },
-  {
-    name: "Sint Maarten",
-    iso2: "sx",
-    dialCode: "+1",
-    format: "+1 721 520 5678",
-    timeZones: ["America/Lower_Princes"],
   },
   {
     name: "Slovakia",
@@ -1631,13 +1491,6 @@ export const countryList = [
     timeZones: ["Pacific/Tongatapu"],
   },
   {
-    name: "Trinidad and Tobago",
-    iso2: "tt",
-    dialCode: "+1",
-    format: "+1 868 291 1234",
-    timeZones: ["America/Port_of_Spain"],
-  },
-  {
     name: "Tunisia",
     iso2: "tn",
     dialCode: "+216",
@@ -1657,13 +1510,6 @@ export const countryList = [
     dialCode: "+993",
     format: "+993 66 123456",
     timeZones: ["Asia/Ashgabat"],
-  },
-  {
-    name: "Turks and Caicos Islands",
-    iso2: "tc",
-    dialCode: "+1",
-    format: "+1 649 231 1234",
-    timeZones: ["America/Grand_Turk"],
   },
   {
     name: "Tuvalu",

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import PhoneInput from "react-phone-number-validation";
 
 const App = () => {
@@ -10,8 +10,14 @@ const App = () => {
     setPhoneNumber(value);
   };
 
+  useEffect(() => {
+    setPhoneNumber("+1 432 423 4234");
+  }, []);
+
   return (
     <PhoneInput
+      country="gb"
+      autoSelectCountry={true}
       value={phoneNumber}
       setValue={setPhoneNumber}
       onChange={handleChange}

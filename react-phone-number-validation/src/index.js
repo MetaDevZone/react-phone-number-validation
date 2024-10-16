@@ -29,11 +29,21 @@ const PhoneInput = ({
   const [inputPlaceholder, setInputPlaceholder] = useState("");
   const [isNotChange, setIsNotChange] = useState(null);
   const [isValid, setIsValid] = useState("");
+  const [firstRender, setFirstRender] = useState(true);
 
   const detectCountryByDialCode = (formattedValue) => {
     return countryList.find((country) =>
       formattedValue.startsWith(country.dialCode)
     );
+  };
+
+  const handleFindCountry = (formattedValue) => {
+    const country_find = countryList.find(
+      (country) =>
+        formattedValue.length === country.format.length &&
+        formattedValue.startsWith(country.dialCode)
+    );
+    return country_find;
   };
 
   const formatInputValue = (value) => {
@@ -95,7 +105,6 @@ const PhoneInput = ({
     setInputPlaceholder(other_value?.placeholder || country.format);
     setSearchTerm("");
     setIsNotChange(country.format);
-
     onChange(country.dialCode, {
       ...selectedCountry,
       required: other_value?.required ? other_value?.required : false,
@@ -160,14 +169,6 @@ const PhoneInput = ({
     setSelectedCountry(selectedCountry);
     setInputPlaceholder(other_value?.placeholder || selectedCountry.format);
     setValue(selectedCountry.dialCode);
-
-    if (onRender) {
-      onChange(value, {
-        ...selectedCountry,
-        required: other_value?.required ? other_value?.required : false,
-        is_not_valid: isValid,
-      });
-    }
   };
 
   useEffect(() => {
@@ -178,7 +179,23 @@ const PhoneInput = ({
     if (value.length === 0) {
       setIsNotChange(null);
     }
-  }, [value]);
+    if (value && firstRender) {
+      const detectedCountry = handleFindCountry(value);
+
+      if (detectedCountry) {
+        setSelectedCountry(detectedCountry);
+        setInputPlaceholder(other_value?.placeholder || detectedCountry.format);
+      }
+      if (onRender) {
+        onRender(value, {
+          ...(detectedCountry || selectedCountry),
+          required: other_value?.required ? other_value?.required : false,
+          is_not_valid: isValid,
+        });
+      }
+      setFirstRender(false);
+    }
+  }, [value, firstRender]);
 
   return (
     <div className="phone-input-container">
@@ -192,7 +209,7 @@ const PhoneInput = ({
       <div
         className="placeholder-text"
         style={{
-          left: value.length * 9 + 53,
+          left: value.length * 9 + 50,
         }}
         onClick={handleFoucs}
       >
